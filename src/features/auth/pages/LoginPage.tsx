@@ -3,7 +3,6 @@ import { makeStyles } from "@mui/styles";
 import { Box } from "@mui/system";
 import * as React from "react";
 import { useAppDispatch, useAppSelector } from "../../../app/hook";
-import { User } from "../../../models/user";
 import { authActions, LoginPayLoad, selectIsLogging } from "../authSlice";
 
 const useStyle = makeStyles((theme) => ({
