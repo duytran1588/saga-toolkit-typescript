@@ -3,4 +3,6 @@
 #student
 
 # @name getAllStudents
-GET {{baseUrl}}/students?_limit=10&_page=1
+GET {{baseUrl}}/students?_limit=10&_page=1&
+
+

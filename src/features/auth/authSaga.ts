@@ -17,7 +17,7 @@ function* handleLogin(userLogin: LoginPayLoad) {
       user,
     };
     yield put(authActions.loginSuccess(data));
-    yield put(push("/admin"));
+    yield put(push("/admin/dashboard"));
   } catch (error: any) {
     yield put(authActions.loginFailed(error.message));
   }
